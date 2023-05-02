@@ -115,58 +115,6 @@ section h3 {
   color: var(--headline);
 }
 
-
-/* teste */
-/* Estilo do modal */
-.modal {
-  display: none;
-  /* Oculta o modal por padrão */
-  position: fixed;
-  /* Permite que o modal fique fixo na tela */
-  z-index: 1;
-  /* Define uma ordem de empilhamento para o modal */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Define o tamanho do modal */
-  height: 100%;
-  overflow: auto;
-  /* Permite rolar a tela quando o modal estiver aberto */
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Define uma cor de fundo semi-transparente */
-}
-
-/* Estilo do conteúdo do modal */
-.modal-content {
-  background-color: #fefefe;
-  /* Define uma cor de fundo para o conteúdo */
-  margin: 10% auto;
-  /* Define a posição vertical e horizontal do conteúdo */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  /* Define a largura do conteúdo */
-}
-
-/* Estilo do botão de fechar */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
-
-/* teste */
-
 section p,
 section span {
   font-weight: 400;
@@ -639,6 +587,13 @@ body.light-mode #home img#notebook-2-white {
 
 /*===== ABOUT =================================================*/
 
+.desktop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+
 #about {
   text-align: left;
 }
@@ -668,6 +623,17 @@ body.light-mode #home img#notebook-2-white {
   box-shadow: 0 0 2rem black;
 
   transition: 600ms;
+}
+
+.box-certificacao{
+  padding-bottom: 5rem !important;
+
+}
+
+.certificacao img{
+  width: 20rem;
+  border: 6px solid black;
+
 }
 
 /*===== PROJECTS ===============================================*/
@@ -1471,15 +1437,26 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   /*===== GERAL ==================================*/
+
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+
+  .content{
+    text-align: start;
+  }
 
   section h4 {
     font-size: 1.2rem;
   }
 
   body section h2 {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
   }
 
   section h3 {
@@ -1489,12 +1466,12 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   section p,
   section span,
   footer p {
-    font-size: 1.3rem;
+    font-size: 1.9rem !important;
   }
 
   .button {
     padding: 1rem 2rem;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 
   /*===== NAVEGATION ==================================*/
@@ -1513,7 +1490,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   body.menu-expanded .menu ul:nth-child(1) {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     gap: 2rem;
     margin: 6rem 0 7rem;
   }
@@ -1533,11 +1510,12 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== HOME ==================================*/
 
   #home h1 {
-    font-size: 3.8rem;
+    font-size: 5.10rem;
+    text-align: start;
   }
 
   #home p {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
   }
 
   @keyframes typing {
@@ -1581,7 +1559,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   .img-perfil {
-    border-radius: 59rem !important;
+    display: none;
   }
 
   /*===== PROJECTS ==================================*/
