@@ -219,8 +219,7 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            O presente site que desenvolvi para apresentar a mim e meus
-            projetos.
+          E-commerce de uma loja de roupas e acessórios online.
           </p>
           <p>HTML - CSS - JS</p>
         </div>
