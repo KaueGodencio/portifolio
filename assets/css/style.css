@@ -119,24 +119,33 @@ section h3 {
 /* teste */
 /* Estilo do modal */
 .modal {
-  display: none; /* Oculta o modal por padrão */
-  position: fixed; /* Permite que o modal fique fixo na tela */
-  z-index: 1; /* Define uma ordem de empilhamento para o modal */
+  display: none;
+  /* Oculta o modal por padrão */
+  position: fixed;
+  /* Permite que o modal fique fixo na tela */
+  z-index: 1;
+  /* Define uma ordem de empilhamento para o modal */
   left: 0;
   top: 0;
-  width: 100%; /* Define o tamanho do modal */
-  height: 100%; 
-  overflow: auto; /* Permite rolar a tela quando o modal estiver aberto */
-  background-color: rgba(0,0,0,0.5); /* Define uma cor de fundo semi-transparente */
+  width: 100%;
+  /* Define o tamanho do modal */
+  height: 100%;
+  overflow: auto;
+  /* Permite rolar a tela quando o modal estiver aberto */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Define uma cor de fundo semi-transparente */
 }
 
 /* Estilo do conteúdo do modal */
 .modal-content {
-  background-color: #fefefe; /* Define uma cor de fundo para o conteúdo */
-  margin: 10% auto; /* Define a posição vertical e horizontal do conteúdo */
+  background-color: #fefefe;
+  /* Define uma cor de fundo para o conteúdo */
+  margin: 10% auto;
+  /* Define a posição vertical e horizontal do conteúdo */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Define a largura do conteúdo */
+  width: 80%;
+  /* Define a largura do conteúdo */
 }
 
 /* Estilo do botão de fechar */
@@ -855,20 +864,20 @@ body.light-mode #home img#notebook-2-white {
   width: 10rem;
 }
 
-.logo-wordpres{
+.logo-wordpres {
   border: 4px solid black;
   border-radius: 6px;
   width: 9rem !important;
-  
+
 }
 
-.logo-bootstrap{
+.logo-bootstrap {
   border: 4px solid black;
   border-radius: 6px;
-  
+
 }
 
-.logo-figma{
+.logo-figma {
   border: 4px solid black;
   border-radius: 6px;
   width: 9rem !important;
@@ -1500,7 +1509,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   .menu li {
     display: flex;
     justify-content: center;
-    
+
   }
 
   body.menu-expanded .menu ul:nth-child(1) {
@@ -1543,6 +1552,10 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   #home .wrapper::before {
     bottom: -2rem;
+  }
+
+  .wrapper {
+    padding-inline: 0;
   }
 
   /*===== ABOUT ==================================*/
