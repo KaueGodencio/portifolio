@@ -118,7 +118,7 @@ function projetos(section) {
               </a>
             </div>
           </div>
-          <p>Um projeto que utiliza JavaScript para manipulação do DOM foi desenvolvido durante um curso. </p>
+          <p> Projeto desenvolvido durante curso de JavaScript. </p>
           <p>HTML - CSS - JS</p>
         </div>
         <div class="card">
