@@ -1101,7 +1101,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   section {
-    padding-block: 13rem;
+    padding-block: 9rem;
   }
 
   body section h2 {
@@ -1341,7 +1341,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== ABOUT =======================================*/
 
   #about .wrapper {
-    grid-template-columns: 48rem 1fr;
+    /* grid-template-columns: 48rem 1fr; */
     grid-template-areas: "B A";
 
     gap: 6.7rem;
