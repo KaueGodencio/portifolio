@@ -629,7 +629,8 @@ body.light-mode #home img#notebook-2-white {
 
 .box-certificacao{
   padding-bottom: 5rem !important;
-  height: 350px;
+  height: 100%;
+  width: 80%;
 
 }
 
@@ -943,8 +944,8 @@ body.light-mode #home img#notebook-2-white {
 
 #contact .col-b img {
   width: 35rem;
-  animation: flutuar 2.5s infinite backwards;
-  filter: brightness(1.2);
+ /*  animation: flutuar 2.5s infinite backwards;
+  filter: brightness(1.2); */
 }
 
 #contact .col-b::after {
