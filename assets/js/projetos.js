@@ -166,9 +166,9 @@ function projetos(section) {
           <p>HTML - CSS - JS</p>
         </div>
         <div class="card">
-          <h3>Super Sequinho</h3>
+          <h3>KSG Web</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/Super Sequinho.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/ksg-web.gif" alt="Imagem do projeto." />
             <div class="buttons">
              
               <a href="#" target="_blank" title="Ver Projeto">
@@ -187,9 +187,9 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            Site desenvolvido em WorrPress.
+            Site empresa
           </p>
-          <p>WORDPRESS</p>
+          <p>HTML - CSS - JS- BOOTSTRAP</p>
         </div>
         <div class="card">
        
