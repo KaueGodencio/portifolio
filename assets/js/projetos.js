@@ -171,7 +171,7 @@ function projetos(section) {
             <img src="./assets/images/projects/ksg-web.gif" alt="Imagem do projeto." />
             <div class="buttons">
              
-              <a href="#" target="_blank" title="Ver Projeto">
+              <a href="https://ksg-web.vercel.app/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
